@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/iv_return"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:src="@mipmap/_infoback"
+            />
+        <TextView
+            android:text="@string/text_sport_rank"
+            style="@style/title"
+            />
+    </LinearLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/spacing_small"
+       >
+       <TextView
+           android:id="@+id/tv_team_one"
+           android:text="@string/text_group"
+           android:textColor="@color/black"
+           style="@style/textbox" />
+
+
+       <TextView
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="5dp"
+           android:layout_alignParentRight="true"
+           android:text="设备信息为空"
+           android:textSize="18sp"
+           />
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        >
+        <TextView
+            android:text="@string/text_steps"
+            android:textColor="@color/black"
+            style="@style/textbox" />
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+
+   </LinearLayout>
+
+

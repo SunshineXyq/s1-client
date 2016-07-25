@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View style="@style/line_horizontal"/>
+
+    <FrameLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+
+    <View style="@style/line_horizontal" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_device"
+            style="@style/radiobutton_main"
+            android:button="@null"
+            android:drawablePadding="3dp"
+            android:padding="3dp"
+            android:text="@string/radiobutton_device"
+            android:textColor="@drawable/text_color_main"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_ranking"
+            style="@style/radiobutton_main"
+            android:drawablePadding="3dp"
+            android:padding="3dp"
+            android:text="@string/radiobutton_ranking"
+            android:textColor="@drawable/text_color_main"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_music"
+            style="@style/radiobutton_main"
+            android:drawablePadding="3dp"
+            android:padding="3dp"
+            android:text="@string/radiobutton_music"
+            android:textColor="@drawable/text_color_main"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/radiobutton_main"
+            android:drawablePadding="3dp"
+            android:padding="3dp"
+            android:text="@string/radiobutton_setting"
+            android:textColor="@drawable/text_color_main"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+</LinearLayout>

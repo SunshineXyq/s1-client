@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/radar_bg">
+
+    <com.bluedatax.s1_wdp_code.view.RadarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_one"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        app:civ_border_width="2dp"
+        android:focusable="false"
+        />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_two"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        app:civ_border_width="2dp"
+        android:visibility="invisible"
+        />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_three"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        app:civ_border_width="2dp"
+        android:visibility="invisible"
+        />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_four"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="415dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_five"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_six"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="370dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_seven"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="370dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_eight"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="90dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_nine"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_ten"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="180dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_eleven"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="300dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_twelve"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_thriteen"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="120dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <com.bluedatax.s1_wdp_code.view.CircleImageView
+        android:id="@+id/device_fourteen"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="115dp"
+        android:layout_marginTop="120dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#55ffff"
+        android:visibility="invisible"
+        app:civ_border_width="2dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/radar_center_photo" />
+
+</RelativeLayout>

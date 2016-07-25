@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/swiperefreshlayout/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/swiperefreshlayout/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-00d2094b00e545e31861729b674649f8b9cc68c8.jar" />
+    </item>
+    <item
+        jar="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/swiperefreshlayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/swiperefreshlayout/build/intermediates/pre-dexed/debug/classes-955455e3e406b0fcece2f85d94ecc334aeb28e7a.jar" />
+    </item>
+    <item
+        jar="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/swiperefreshlayout/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/swiperefreshlayout/build/intermediates/pre-dexed/debug/classes-99ff43ab331aa64de2abde4b5aa477e1cc9b9c03.jar" />
+    </item>
+    <item
+        jar="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-729798d72de5bf13214386b0510cd119bdbe8cfa.jar" />
+    </item>
+    <item
+        jar="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/app/build/intermediates/pre-dexed/debug/classes-bbef85261a121aed9e6a0545712266c2e7fcc9aa.jar" />
+    </item>
+    <item
+        jar="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/app/build/intermediates/pre-dexed/debug/classes-6cd9326645c4d7f4e9755aaf8f7cd249ae7594fb.jar" />
+    </item>
+    <item
+        jar="/Users/Tools/Android-SDK/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/bdx109/BdxProj/W65/S1_WDP_CODE/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-05d52a6151a16ce9eef30ede0140e4ea38914cad.jar" />
+    </item>
+
+</items>
